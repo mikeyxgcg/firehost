@@ -6,9 +6,9 @@ const fs = require("fs");
 const hastebins = require('hastebin-gen');
 var Canvas = require('canvas');
 var jimp = require('jimp');
-const prefix = "#";
+const prefix = "-";
 const devs = ['462006869834203159' , '' , '' , ''];
-const adminprefix = "#";
+const adminprefix = "-";
 
 client.on('ready', () => {
     console.log('I am ready!');
@@ -206,30 +206,6 @@ hastebin(`${array.slice(0, 30).join('\n')}`, 'txt').then(l => {
 }).catch(console.error);
 
         }
-});
-
-
-client.on("ready", async  => {
-setInterval(function(){
-client.channels.find('id', '528247290385661952').setName("W");
-client.channels.find('id', '528247290385661952').setName("We");
-client.channels.find('id', '528247290385661952').setName("Wel");
-client.channels.find('id', '528247290385661952').setName("Welc");
-client.channels.find('id', '528247290385661952').setName("Welco");
-client.channels.find('id', '528247290385661952').setName("Welcom");
-client.channels.find('id', '528247290385661952').setName("Welcome");
-client.channels.find('id', '528247290385661952').setName("Welcome T");
-client.channels.find('id', '528247290385661952').setName("Welcome To");
-client.channels.find('id', '528247290385661952').setName("Welcome To T");
-client.channels.find('id', '528247290385661952').setName("Welcome To ox");
-client.channels.find('id', '528247290385661952').setName("Welcome To Tox");
-client.channels.find('id', '528247290385661952').setName("Welcome To Toxic");
-client.channels.find('id', '528247290385661952').setName("Welcome To Toxic C");
-client.channels.find('id', '528247290385661952').setName("Welcome To Toxic Co");
-client.channels.find('id', '528247290385661952').setName("Welcome To Toxic Cod");
-client.channels.find('id', '528247290385661952').setName("Welcome To Toxic Code");
-client.channels.find('id', '528247290385661952').setName("Welcome To Toxic Codes");
-  }, 4000);
 });
 
 client.on('message', rw => {
